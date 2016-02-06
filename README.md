@@ -19,4 +19,3 @@ See [Cal Counter Video] (http://youtu.be/X5RTWRF1dAQ?hd=1 )
 * Hat tip to anyone who's code was used
 * Any other support
 
-*Feel free to enhance your README. For Markdown syntax, see [the GitHub Guides](https://guides.github.com/features/mastering-markdown/). Remove this line in your submission.*
