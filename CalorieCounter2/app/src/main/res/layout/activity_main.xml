@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/pushups"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/pushups"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:layout_marginTop="10dp"/>
+
+
+    <ImageButton
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:id="@+id/situps"
+        android:src="@drawable/situps"
+        android:layout_below="@+id/pushups"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_alignParentStart="true"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/squats"
+        android:src="@drawable/squats"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_below="@+id/situps"
+        android:layout_alignEnd="@+id/situps"
+        android:layout_marginTop="10dp"/>
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/leglifts"
+        android:src="@drawable/leglifts"
+        android:layout_above="@+id/squats"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/plank"
+        android:src="@drawable/plank"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:layout_marginTop="10dp"/>
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/jumpingjacks"
+        android:src="@drawable/jumpingjacks"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="0dp"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/pullups"
+        android:src="@drawable/pullups"
+        android:layout_alignTop="@+id/leglifts"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/cycling"
+        android:src="@drawable/cycling"
+        android:layout_alignBottom="@+id/squats"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/walking"
+        android:src="@drawable/walking"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_alignTop="@+id/cycling"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/jogging"
+        android:src="@drawable/jogging"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_alignTop="@+id/swimming"
+        android:layout_alignEnd="@+id/cycling"
+        android:background="@null" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/swimming"
+        android:src="@drawable/swimming"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_below="@+id/squats"
+        android:layout_alignEnd="@+id/squats"
+        android:layout_marginTop="10dp" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/stairclimbing"
+        android:src="@drawable/stairclimbing"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:background="@null"
+        android:layout_alignTop="@+id/jogging"
+        android:layout_alignStart="@+id/walking" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textpushups"
+        android:layout_alignTop="@+id/pushups"
+        android:layout_alignBottom="@+id/pushups"
+        android:layout_alignEnd="@+id/pushups"
+        android:visibility="invisible" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textplank"
+        android:layout_alignTop="@+id/plank"
+        android:layout_alignStart="@+id/plank"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textjumpingjacks"
+        android:layout_alignBottom="@+id/jumpingjacks"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textsitups"
+        android:layout_alignBottom="@+id/situps"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textleglifts"
+        android:layout_alignTop="@+id/textsitups"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textpullups"
+        android:layout_alignBottom="@+id/pullups"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textsquats"
+        android:layout_alignBottom="@+id/squats"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textcycling"
+        android:layout_alignTop="@+id/textsquats"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textwalking"
+        android:layout_alignBottom="@+id/walking"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textswimming"
+        android:layout_alignBottom="@+id/swimming"
+        android:layout_alignParentStart="true"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textjogging"
+        android:layout_alignTop="@+id/jogging"
+        android:layout_alignStart="@+id/jogging"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/textstairclimbing"
+        android:layout_alignTop="@+id/stairclimbing"
+        android:layout_alignParentEnd="true"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:id="@+id/convertbutton"
+        android:layout_below="@+id/swimming"
+        android:layout_alignStart="@+id/swimming" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESET"
+        android:id="@+id/resetbutton"
+        android:layout_below="@+id/stairclimbing"
+        android:layout_alignEnd="@+id/stairclimbing" />
+
+
+    android:visibility="invisible"/>
+
+    <!--android:visibility="invisible"/>-->
+
+    <!--android:visibility="invisible"/>-->
+
+    <!--android:visibility="invisible"/>-->
+
+    <!--android:visibility="invisible"/>-->
+
+    <!--android:visibility="invisible"/>-->
+
+    <!--android:visibility="invisible"/>-->
+
+    <!--android:visibility="invisible"/>-->
+
+    <!--android:visibility="invisible"/>-->
+
+</RelativeLayout>
