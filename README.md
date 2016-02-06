@@ -12,7 +12,7 @@ See [Cal Counter Video] (http://youtu.be/X5RTWRF1dAQ?hd=1 )
 
 ## Screenshots
 
-<img src="screenshots/main.png" height="400" alt="Screenshot"/>
+See doc
 
 ## Acknowledgments
 
