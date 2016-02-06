@@ -1,6 +1,6 @@
 # PROG 01: Crunch Time
 
-Briefly describe your app here.
+The user will open up this app and will be able to see 12 photos of different exercises. Then they can click on one exercise and input a number, reps or minutes, and then proceed to click on the “convert” button on the bottom left.  The number of calories burned will be displayed as a grey bubble. Then by pressing the reset button, it resets the whole layout of the app. Then the user can click on another exercise and input a number of reps or minutes to see the resulting calories burned.
 
 ## Authors
 
